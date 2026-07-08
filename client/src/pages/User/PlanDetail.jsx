@@ -26,7 +26,7 @@
 //   const getUserSubscription = async () => {
   
 //     try {
-//       const res = await axios.get("http://localhost:5000/api/v1/auth/get-user-plan");
+//       const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/auth/get-user-plan");
 //       if (res.data && res.data.success) {
 //         console.log(res.data.subscription);
 //         console.log(res.data);

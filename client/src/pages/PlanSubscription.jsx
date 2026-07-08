@@ -22,7 +22,7 @@ const [loading, setLoading] = useState(false);
 
   const getPlan = async () => {
     try {
-      // const res = await axios.get(`http://localhost:5000/api/v1/plan/get-plan/${planid}`);
+      // const res = await axios.get(`https://nutrigym-8ox5.onrender.com/api/v1/plan/get-plan/${planid}`);
       setLoading(true);
       const res = await axios.get(`${BASE_URL}/api/v1/plan/get-plan/${planid}`);
       if (res.data && res.data.success) {

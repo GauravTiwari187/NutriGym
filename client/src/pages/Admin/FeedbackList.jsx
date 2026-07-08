@@ -32,7 +32,7 @@ const FeedbackList = () => {
     try {
       let answer = window.prompt("Are you sure you want to delete feedback?");
       if (!answer) return;
-      // const { data } = await axios.delete(`http://localhost:5000/api/v1/feedback/delete-feedback/${id}`);
+      // const { data } = await axios.delete(`https://nutrigym-8ox5.onrender.com/api/v1/feedback/delete-feedback/${id}`);
       const { data } = await axios.delete(`${BASE_URL}/api/v1/feedback/delete-feedback/${id}`);
       if (data?.success) {
    

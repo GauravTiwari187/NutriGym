@@ -14,7 +14,7 @@
 
 //   // const getUsers = async () => {
 //   //   try {
-//   //     const res = await axios.get("http://localhost:5000/api/v1/auth/total-user");
+//   //     const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/auth/total-user");
 //   //     if (res.data && res.data.success) {
 //   //       console.log(res.data.total);
 //   //       setUserCount(res.data.total);
@@ -28,7 +28,7 @@
 
 //   // const getPlans = async () => {
 //   //   try {
-//   //     const res = await axios.get("http://localhost:5000/api/v1/plan/total-plan");
+//   //     const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/plan/total-plan");
 //   //     if (res.data && res.data.success) {
 //   //       console.log(res.data.total);
 //   //       setPlanCount(res.data.total);
@@ -43,7 +43,7 @@
 
 //   // const getSubscriptions = async () => {
 //   //   try {
-//   //     const res = await axios.get("http://localhost:5000/api/v1/subscription/total-subscription");
+//   //     const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/subscription/total-subscription");
 //   //     if (res.data && res.data.success) {
 //   //       console.log(res.data.total);
 //   //       setSubscriberCount(res.data.total);
@@ -180,7 +180,7 @@
 // //   const getUserSubscription = async () => {
   
 // //     try {
-// //       const res = await axios.get("http://localhost:5000/api/v1/auth/get-user-plan");
+// //       const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/auth/get-user-plan");
 // //       if (res.data && res.data.success) {
 // //         console.log(res.data.subscription);
 // //         console.log(res.data);

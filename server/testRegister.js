@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const testRegister = async () => {
   try {
-    const response = await axios.post('http://localhost:5000/api/v1/auth/register', {
+    const response = await axios.post('https://nutrigym-8ox5.onrender.com/api/v1/auth/register', {
       name: 'Test User',
       email: 'test@example.com',
       password: 'yourpassword',

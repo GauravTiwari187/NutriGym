@@ -85,7 +85,7 @@ const UpdatePlan = () => {
     try {
       let answer = window.prompt("are you sure you want to delete this product ?");
       if(!answer) return;
-      const {data} = await axios.delete(`http://localhost:5000/api/v1/plan/delete-plan/${planid}`);
+      const {data} = await axios.delete(`https://nutrigym-8ox5.onrender.com/api/v1/plan/delete-plan/${planid}`);
       if (data?.success) {
       toast.success(`selected product is deleted`);
       navigate("/dashboard/admin/plans");

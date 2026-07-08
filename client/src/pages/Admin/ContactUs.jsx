@@ -10,7 +10,7 @@ const ContactUs = () => {
 
   const getAllContact= async () => {
     try {
-      // const res = await axios.get("http://localhost:5000/api/v1/contact/getall-contact");
+      // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/contact/getall-contact");
       setLoading(true);
       const res = await axios.get(`${BASE_URL}/api/v1/contact/getall-contact`);
       if (res.data && res.data.success) {

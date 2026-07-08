@@ -21,7 +21,7 @@ const fetchData = async (url, options) => {
   return data;
 };
 
-// const BASE_URL = "http://localhost:5000";
-const BASE_URL="https://gym-master.onrender.com";
+// const BASE_URL = "https://nutrigym-8ox5.onrender.com";
+const BASE_URL = "https://nutrigym-8ox5.onrender.com";
 
 export { fetchData, exerciseOptions, youtubeExerciseOptions, BASE_URL };

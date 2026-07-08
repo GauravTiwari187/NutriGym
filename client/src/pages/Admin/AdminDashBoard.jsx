@@ -17,7 +17,7 @@
 
 //   const getUsers = async () => {
 //     try {
-//       // const res = await axios.get("http://localhost:5000/api/v1/auth/total-user");
+//       // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/auth/total-user");
 //       setLoading(true);
 //       const res = await axios.get(`${BASE_URL}/api/v1/auth/total-user`);
 //       if (res.data && res.data.success) {
@@ -35,7 +35,7 @@
 
 //   const getPlans = async () => {
 //     try {
-//       // const res = await axios.get("http://localhost:5000/api/v1/plan/total-plan");
+//       // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/plan/total-plan");
 //       setLoading(true);
 //       const res = await axios.get(`${BASE_URL}/api/v1/plan/total-plan`);
 //       if (res.data && res.data.success) {
@@ -55,7 +55,7 @@
 //   const getSubscriptions = async () => {
 //     try {
 //       setLoading(true);
-//       // const res = await axios.get("http://localhost:5000/api/v1/subscription/total-subscription");
+//       // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/subscription/total-subscription");
 //       const res = await axios.get(`${BASE_URL}/api/v1/subscription/total-subscription`);
 //       if (res.data && res.data.success) {
 //         console.log(res.data.total);
@@ -72,7 +72,7 @@
 
 //   const getContacts = async () => {
 //     try {
-//       // const res = await axios.get("http://localhost:5000/api/v1/contact/total-contact");
+//       // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/contact/total-contact");
 //       setLoading(true);
 //       const res = await axios.get(`${BASE_URL}/api/v1/contact/total-contact`);
 //       if (res.data && res.data.success) {
@@ -90,7 +90,7 @@
 
 //   const getFeedbacks = async () => {
 //     try {
-//       // const res = await axios.get("http://localhost:5000/api/v1/feedback/total-feedback");
+//       // const res = await axios.get("https://nutrigym-8ox5.onrender.com/api/v1/feedback/total-feedback");
 //       setLoading(true);
 //       const res = await axios.get(`${BASE_URL}/api/v1/feedback/total-feedback`);
 //       if (res.data && res.data.success) {
